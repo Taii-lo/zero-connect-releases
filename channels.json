@@ -1,0 +1,10 @@
+{
+  "channels": {},
+  "generated_at": "2026-10-09T10:53:39Z",
+  "schema_version": 1,
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "utrlrkfZEGvNpaCT/nzgAUR6ViAO39BSNtYZZZ/+SKwWmTaR8r2AhbrN5Oiz6hfkHbjznRh4Z9Jaq+EczHwfBw=="
+  }
+}

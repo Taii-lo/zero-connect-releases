@@ -1,0 +1,10 @@
+{
+  "codes": [],
+  "generated_at": "2026-10-09T10:53:39Z",
+  "schema_version": 1,
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "PxnAsyOLTWpYRz0USrrOS/wpGepqisfJUnNEnVs+pJCNDd5icZW9yS4fbNcjWA0S1dsNDntKFLxapELG0H6sAA=="
+  }
+}
