@@ -2,6 +2,20 @@
   "codes": [
     {
       "epoch": 1,
+      "expires_at": "2026-10-20T20:52:07Z",
+      "id": "4WK3",
+      "kdf": {
+        "n": 16384,
+        "p": 1,
+        "r": 8
+      },
+      "label": "TestPi",
+      "revoked": false,
+      "salt": "fIntwgxJPm84SeS5+yt1wg==",
+      "wrapped": "2ynxT/h7y9H7ENQGTzrPwSAodZGdcrLLYTrXLZQo9pc/RdvTKmvrh8AWEckZruzgi4ffUysETLdGdIb4"
+    },
+    {
+      "epoch": 1,
       "expires_at": null,
       "id": "N5AT",
       "kdf": {
@@ -12,14 +26,14 @@
       "label": "Thilo",
       "revoked": false,
       "salt": "qqnd9Z0DMzk8QEdJEx0VYg==",
-      "wrapped": "TfZfvQCbtqhvlHEQq2s8S1plI94WBtYqzCII1/RCh6BiOicBNT86FKwUFVcj8FksuyzqZg0d2etcv/L0"
+      "wrapped": "OSiTDxQvnKhXEEgbLLF9068/0XDa9apIUuLitLc/K1GkiX2HPZ/7NS2kGtpem0VeYSU/IDPEWc9Jdt6J"
     }
   ],
-  "generated_at": "2026-10-09T15:28:30Z",
+  "generated_at": "2026-10-13T20:52:07Z",
   "schema_version": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "34ly5Y6jws8qJGqZsNsfwFsd2uipBLarUAq4tHq+LARr5QOv8GHvBFLg1V8hu8wMghFTJ+Ku2ppHNLvp1TjBAg=="
+    "value": "ow0R0FgmksC1nMqHuxw+zmneq5vJe/8y7urH8sQCwXhzIkpT73OykrR5wLL+exVkBFRskwuT1kVUuqu8ZZKkCQ=="
   }
 }
