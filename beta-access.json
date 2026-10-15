@@ -1,7 +1,7 @@
 {
   "codes": [
     {
-      "epoch": 1,
+      "epoch": 2,
       "expires_at": "2026-10-20T20:52:07Z",
       "id": "4WK3",
       "kdf": {
@@ -10,12 +10,11 @@
         "r": 8
       },
       "label": "TestPi",
-      "revoked": false,
-      "salt": "fIntwgxJPm84SeS5+yt1wg==",
-      "wrapped": "jRYpCGL6T1hlfAIkfNf8vwXoewm5agbEzKqMj8n8pz9KoYa0YJs+txOf32K7BrN0YV+UxGgR8hxYdnw5"
+      "revoked": true,
+      "salt": "fIntwgxJPm84SeS5+yt1wg=="
     },
     {
-      "epoch": 1,
+      "epoch": 2,
       "expires_at": null,
       "id": "N5AT",
       "kdf": {
@@ -26,14 +25,14 @@
       "label": "Thilo",
       "revoked": false,
       "salt": "qqnd9Z0DMzk8QEdJEx0VYg==",
-      "wrapped": "X0D+OGnfPdgYJCLFYOiCsL9tfPF9s9kA0WOmybDbnMHaOvyJP64Sn2Bob/ahLr2ldxOmis19ppsBtBtR"
+      "wrapped": "DwZJ+IZ/RY5s8eEM0VZ36uB4V/gHUjotgZxH4/ywcsekrDo4G7wYK8vCZW/uBRG7XjnDoN+LXXIfwKiB"
     }
   ],
-  "generated_at": "2026-10-14T10:43:15Z",
+  "generated_at": "2026-10-15T05:27:53Z",
   "schema_version": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "KxbCXFD5um7IGhlUbBBYkhaoOiIyOmdwd/wXo2SBaUOXmm7aP1RMc/m6hqIdAdlWNIdGJo+W8oVmjHJIaFGvAg=="
+    "value": "ebaOKsqobCk6V8p2J+LEPRVcf1S1h4LsloMgJaUSGBXftr8jt7fxrnPGIS2uO+a22+XSqOjGHCFFOp/TrYJCAg=="
   }
 }
