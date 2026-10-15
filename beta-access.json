@@ -15,6 +15,20 @@
     },
     {
       "epoch": 2,
+      "expires_at": "2026-10-22T21:25:12Z",
+      "id": "8QZV",
+      "kdf": {
+        "n": 16384,
+        "p": 1,
+        "r": 8
+      },
+      "label": "TestPi",
+      "revoked": false,
+      "salt": "lLWEvTr94uNUUqq1weFgqw==",
+      "wrapped": "mA1t8JfTpc9RA2BYPFIiJUMpWaG/zQep9FyMJl6+Yt3EFuRgkcBaOwHl2+AmDJB2biQydI6eF+9I5/Ao"
+    },
+    {
+      "epoch": 2,
       "expires_at": null,
       "id": "N5AT",
       "kdf": {
@@ -25,14 +39,14 @@
       "label": "Thilo",
       "revoked": false,
       "salt": "qqnd9Z0DMzk8QEdJEx0VYg==",
-      "wrapped": "Bo2XjYePR1Y/x5S7dldHrrQpUmKZs6c4ik+RIZX+BSXfNWCE6bE6XvEVoq3ojSdxBmsL+a6qVu6UdM9I"
+      "wrapped": "WySHfjp4D5k15cKHJXwn/vQxNj6uy18bi4BEVV4m9UZarN/gZVJPTjsW35VM7rHLDMr9AHl1KNdK7gD5"
     }
   ],
-  "generated_at": "2026-10-15T10:28:09Z",
+  "generated_at": "2026-10-15T21:25:16Z",
   "schema_version": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "4kfXLTrmDlUvI0hMzwtMOVjMsSmBm6y8vtC1LrsIMb4Nw0pRVmqZoUCurKcB7GZlx5Z4AuZ4QqHC96gChcTLCQ=="
+    "value": "TaXsaI7BKlozGskSFNz4FQwKSrjV0Tg+rONgDzX6vHJv7xeCeQGbnwZeaeWNp9+8HbuzyXge8bX+RUliG+cIAA=="
   }
 }
