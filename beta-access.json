@@ -25,14 +25,14 @@
       "label": "Thilo",
       "revoked": false,
       "salt": "qqnd9Z0DMzk8QEdJEx0VYg==",
-      "wrapped": "DwZJ+IZ/RY5s8eEM0VZ36uB4V/gHUjotgZxH4/ywcsekrDo4G7wYK8vCZW/uBRG7XjnDoN+LXXIfwKiB"
+      "wrapped": "Bo2XjYePR1Y/x5S7dldHrrQpUmKZs6c4ik+RIZX+BSXfNWCE6bE6XvEVoq3ojSdxBmsL+a6qVu6UdM9I"
     }
   ],
-  "generated_at": "2026-10-15T05:27:53Z",
+  "generated_at": "2026-10-15T10:28:09Z",
   "schema_version": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "ebaOKsqobCk6V8p2J+LEPRVcf1S1h4LsloMgJaUSGBXftr8jt7fxrnPGIS2uO+a22+XSqOjGHCFFOp/TrYJCAg=="
+    "value": "4kfXLTrmDlUvI0hMzwtMOVjMsSmBm6y8vtC1LrsIMb4Nw0pRVmqZoUCurKcB7GZlx5Z4AuZ4QqHC96gChcTLCQ=="
   }
 }
