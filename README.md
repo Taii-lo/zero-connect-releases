@@ -4,21 +4,24 @@ Zero Connect ist ein kleines Gerät (Raspberry Pi), das die Daten deines **Zero-
 
 *English summary below.*
 
+> **Vorabversion (Beta).** Du gehörst zu den Ersten, die Zero Connect ausprobieren. Es kann noch Fehler geben. Sag mir Bescheid, wenn dir etwas auffällt.
+
 > **Ein privates Hobbyprojekt, kein Produkt.** Zero Connect ist unabhängig und nicht von Zero Motorcycles. Es gibt keine Garantie. Du nutzt es auf eigenes Risiko. Siehe [NOTICE.md](NOTICE.md) und unten „Hinweise“.
 
 ## Was du brauchst
 
-- Einen **Raspberry Pi 3 B+ oder Pi 5** mit microSD-Karte (ab 16 GB) oder SSD, Netzteil und WLAN oder Netzwerkkabel. Andere Modelle (z. B. Pi 4) sind nicht getestet.
+- Einen **Raspberry Pi 3 B+** (ein kleiner Computer, etwa so groß wie eine Zigarettenschachtel) mit **microSD-Karte** (ab 16 GB), passendem **Netzteil** und WLAN oder Netzwerkkabel. Das Image ist bisher nur auf dem Pi 3 B+ geprüft. Pi 5 und andere Modelle (z. B. Pi 4) sind für das Image **noch nicht getestet**.
+- Ein **Kartenlesegerät** am Computer, um die microSD-Karte zu beschreiben.
 - Dein **eigenes Zero-Cloud-Konto** (dieselbe E-Mail und dasselbe Passwort wie in der Zero-App). Jedes Gerät nutzt das Konto seines Besitzers.
 - Ein Telefon oder Computer im selben WLAN.
 - Optional: ein kostenloses [Tailscale](https://tailscale.com)-Konto, wenn du die App auch unterwegs öffnen willst.
 
 ## Installieren (etwa 15 Minuten)
 
-1. Lade unter [**Releases**](https://github.com/Taii-lo/zero-connect-releases/releases/latest) die Datei `zero-connect-….img.xz` herunter.
-2. Installiere den [Raspberry Pi Imager](https://www.raspberrypi.com/software/), wähle unter „Betriebssystem“ ganz unten **„Eigenes Image verwenden“** und die heruntergeladene Datei, dann die Speicherkarte. Fragt der Imager, ob du Einstellungen anpassen möchtest: **Nein**, das Image bringt alles mit.
-3. Karte in den Pi, Netzteil anschließen. Ohne Netzwerkkabel baut der Pi ein WLAN **„Zero Connect Setup“** auf: Mit dem Telefon verbinden, die Einrichtung öffnet sich.
-4. Heim-WLAN wählen, Motorradmodell wählen, Zero-Cloud-Konto eintragen. Fertig. Die App ist danach unter der Adresse erreichbar, die dir die Einrichtung am Ende zeigt (z. B. `http://zero-connect.local:8080`).
+1. Öffne die Seite [**Releases**](https://github.com/Taii-lo/zero-connect-releases/releases), nimm den obersten Eintrag und lade unter „Assets“ die Datei `zero-connect-….img.xz` herunter (etwa 200 MB). Du musst sie **nicht entpacken**.
+2. Installiere den [Raspberry Pi Imager](https://www.raspberrypi.com/software/), wähle unter „Betriebssystem“ ganz unten **„Eigenes Image verwenden“** und die heruntergeladene Datei, dann die Speicherkarte. Fragt der Imager, ob du Einstellungen anpassen möchtest: **Nein**, das Image bringt alles mit. Dann auf „Schreiben“ klicken und warten, bis der Imager fertig meldet.
+3. Karte in den Pi stecken, Netzteil anschließen und etwa **zwei Minuten warten** (beim ersten Start dauert es etwas länger). Ohne Netzwerkkabel baut der Pi ein WLAN **„Zero Connect Setup“** auf: Verbinde dein Telefon damit, die Einrichtung öffnet sich.
+4. Heim-WLAN wählen, Motorradmodell wählen, Zero-Cloud-Konto eintragen. Fertig. Die App ist danach unter der Adresse erreichbar, die dir die Einrichtung am Ende zeigt (z. B. `http://zero-connect.local:8080`). Funktioniert die `.local`-Adresse bei dir nicht, findest du die IP-Adresse des Pi in der Geräteliste deines Routers.
 
 Eine ausführliche Anleitung mit Fernzugriff (Tailscale) und Mitteilungen steht in der App unter **Einstellungen → Hilfe & Diagnose → Häufige Fragen**.
 
@@ -47,7 +50,7 @@ Ein Update, das den Ortsnamen-Dienst abschaltbar macht und die Datenflüsse bewe
 
 - **Motorräder:** Entwickelt und getestet mit einer **Zero SR/S**. Die Einrichtung kennt auch SR/F, SR, S, DS, DSR und DSR/X; diese sollten dieselbe Zero Cloud nutzen, sind aber **nicht getestet**.
 - **Telefone:** Getestet mit **iPhone** (inklusive Mitteilungen und Live-Aktivität über Aivi). **Android ist nicht getestet**, die App läuft in jedem Browser, Mitteilungen auf Android sind unbekannt.
-- **Geräte:** Raspberry Pi 3 B+ und Pi 5.
+- **Geräte:** Raspberry Pi 3 B+ (das Image ist darauf getestet). Der Pi 5 läuft bei mir im Dauerbetrieb, das fertige Image für Neueinsteiger ist darauf aber **noch nicht getestet**.
 
 ## Wenn etwas nicht klappt
 
@@ -63,7 +66,7 @@ In der App: *Einstellungen → Hilfe & Diagnose → Häufige Fragen*. Hilft das 
 
 ## English summary
 
-Zero Connect is a small appliance (Raspberry Pi 3 B+ or 5) that reads your **Zero electric motorcycle's** data from the Zero Cloud and gives you your own app for it: battery level and charging history, 12 V battery, rides, range, places and maintenance. It only reads; it never controls the motorcycle. It is an unofficial hobby project with no warranty.
+Zero Connect is a small appliance (Raspberry Pi 3 B+; the image is not yet tested on a Pi 5) that reads your **Zero electric motorcycle's** data from the Zero Cloud and gives you your own app for it: battery level and charging history, 12 V battery, rides, range, places and maintenance. It only reads; it never controls the motorcycle. It is an unofficial hobby project with no warranty.
 
 **Install:** download `zero-connect-….img.xz` from [Releases](https://github.com/Taii-lo/zero-connect-releases/releases/latest), write it with Raspberry Pi Imager ("Use custom"), power the Pi, join the Wi-Fi *Zero Connect Setup* and follow the setup (home Wi-Fi, bike model, your own Zero Cloud login).
 
