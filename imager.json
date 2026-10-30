@@ -2,10 +2,9 @@
   "os_list": [
     {
       "architecture": "armv8",
-      "description": "Zero Connect für Raspberry Pi 3 B+ und Pi 5: die eigene App für dein Zero-Elektromotorrad",
+      "description": "Zero Connect für Raspberry Pi 3 B+: die eigene App für dein Zero-Elektromotorrad",
       "devices": [
-        "pi3-64bit",
-        "pi5-64bit"
+        "pi3-64bit"
       ],
       "extract_sha256": "0747c6a6a0f4ec13ad719f82805819aa66e59f0da11d549d1aea7a2f02d451fe",
       "extract_size": 4840226816,
@@ -14,7 +13,7 @@
       "image_download_size": 206781460,
       "init_format": "none",
       "name": "Zero Connect 1.0.0-beta.6",
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "url": "https://github.com/Taii-lo/zero-connect-releases/releases/download/v1.0.0-beta.6/zero-connect-pi_1.0.0-beta.6-20261029T075939Z.img.xz",
       "website": "https://github.com/Taii-lo/zero-connect-releases"
     }
