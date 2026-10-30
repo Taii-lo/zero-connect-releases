@@ -1,0 +1,30 @@
+{
+  "asset": {
+    "sha256": "5c980fb9f1899724c04d2660c9db0ea13965df3f2fd9bbdcc65424cfaf12f9cc",
+    "size": 716837,
+    "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.7/zero-connect_1.0.0-beta.7.tar.gz"
+  },
+  "changelog_summary": "",
+  "channel": "beta",
+  "internal_version": "3.0.0-alpha.45",
+  "minimum_config_schema": 5,
+  "notes": [
+    "Einrichtung führt durch den WLAN-Wechsel: Beim Wechsel ins Heim-WLAN zeigt die Einrichtung jetzt Schritt für Schritt, wie es weitergeht. Der Wechsel startet erst, nachdem die Adresse kopiert wurde. Die WLAN-Suche zeigt, dass sie arbeitet, die erste Seite ist aufgeräumter, und bei der Modellauswahl läuft keine Ladeanimation mehr, bevor ein Modell gewählt ist. Außerdem: Der Verlauf erklärt, wann Ladevorgänge erscheinen, und die 12-V-Karte zeigt bei einem einzigen Messwert keinen Bereich.",
+    "12-V-Kurve mit Datum: Unter der Kurve der 12-V-Batterie stehen jetzt Anfang und Ende des Zeitraums (14 Tage, bis heute).",
+    "Beta 6: 12-V-Batterie, Beta per Schalter, Weg zurück zur stabilen Version: Der Batterie-Tab zeigt jetzt die 12-V-Batterie mit Spannung und Tageskurve und passt ohne Scrollen auf den Bildschirm. Beta-Versionen lassen sich ohne Code mit einem Schalter in App & Updates einschalten; wer sie wieder ausschaltet, kann zur stabilen Version zurückwechseln, sobald diese die Daten sicher lesen kann.",
+    "Von der Beta zur stabilen Version zurückwechseln: Wer die Beta ausschaltet und noch eine Beta-Version nutzt, die neuer ist als die stabile, kann auf Wunsch zur stabilen Version zurückwechseln. Das geht nur, wenn der Herausgeber signiert hat, dass die stabile Version die Daten lesen kann; Ladevorgänge und Einstellungen bleiben dabei erhalten. Automatisch passiert das nie.",
+    "Beta ohne Einladungscode, per Schalter: Unter Einstellungen → App & Updates schaltest du „Beta-Versionen erhalten“ ein und bekommst neue Funktionen früher, ganz ohne Code. Ausschalten geht jederzeit. Einladungscodes für eine private Beta gibt es weiterhin, sie sind jetzt unter „Einladungscode eingeben“ versteckt."
+  ],
+  "public_version": "1.0.0-beta.7",
+  "release_timestamp": "2026-10-30T16:46:00Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "qGdUiDvT7SGXIsd8yHSGQcvXFozvYQ7T+vkMBs0yxU/D6AaO0GqaubWCOX18SBbVWsivy84y3FNxtTERgFbNDg=="
+  },
+  "supported_platforms": [
+    "raspios-trixie-arm64",
+    "pi3-64bit",
+    "pi5-64bit"
+  ]
+}
