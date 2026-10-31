@@ -1,0 +1,29 @@
+{
+  "asset": {
+    "sha256": "69325545d01868f5ed29bc85df2a4714f3c184fb117fdcdf79db533362a9aa5c",
+    "size": 717936,
+    "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.8/zero-connect_1.0.0-beta.8.tar.gz"
+  },
+  "changelog_summary": "",
+  "channel": "beta",
+  "internal_version": "3.0.0-alpha.45",
+  "minimum_config_schema": 5,
+  "notes": [
+    "Update zeigt den Fortschritt direkt an: Beim Installieren springt die Ansicht nach oben zur Fortschrittsanzeige. Sie begleitet das Update bis zum Neustart und lädt die Seite danach selbst neu. Ist der Update-Dienst auf einem Gerät ausgeschaltet, sagt die App das sofort, statt endlos zu laden.",
+    "Einrichtung führt durch den WLAN-Wechsel: Beim Wechsel ins Heim-WLAN zeigt die Einrichtung jetzt Schritt für Schritt, wie es weitergeht. Der Wechsel startet erst, nachdem die Adresse kopiert wurde. Die WLAN-Suche zeigt, dass sie arbeitet, die erste Seite ist aufgeräumter, und bei der Modellauswahl läuft keine Ladeanimation mehr, bevor ein Modell gewählt ist. Außerdem: Der Verlauf erklärt, wann Ladevorgänge erscheinen, und die 12-V-Karte zeigt bei einem einzigen Messwert keinen Bereich.",
+    "12-V-Kurve mit Datum: Unter der Kurve der 12-V-Batterie stehen jetzt Anfang und Ende des Zeitraums (14 Tage, bis heute).",
+    "Beta 6: 12-V-Batterie, Beta per Schalter, Weg zurück zur stabilen Version: Der Batterie-Tab zeigt jetzt die 12-V-Batterie mit Spannung und Tageskurve und passt ohne Scrollen auf den Bildschirm. Beta-Versionen lassen sich ohne Code mit einem Schalter in App & Updates einschalten; wer sie wieder ausschaltet, kann zur stabilen Version zurückwechseln, sobald diese die Daten sicher lesen kann."
+  ],
+  "public_version": "1.0.0-beta.8",
+  "release_timestamp": "2026-10-31T15:02:34Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "bVld9MNKpFk6WgZfDPEKbU+XP56+MXiGjRnUN2MXAMopl97NrDeLzKy7sBILeflTw2mvNddtYUM+NsHGd5S4CA=="
+  },
+  "supported_platforms": [
+    "raspios-trixie-arm64",
+    "pi3-64bit",
+    "pi5-64bit"
+  ]
+}
