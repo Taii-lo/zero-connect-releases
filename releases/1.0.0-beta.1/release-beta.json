@@ -1,28 +1,30 @@
 {
   "asset": {
-    "sha256": "c3d236980d65564ade6f944bfd53052d28d70a4d07471a9c1a9db30cfc2409e0",
-    "size": 726532,
+    "sha256": "e8e2de178d0590647d25c2dfd7afb6806b49848d17f94bd7210394922b68c339",
+    "size": 733371,
     "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.1/zero-connect_1.0.0-beta.1.tar.gz"
   },
-  "changelog_summary": "Hinweis: Zero Connect auf den Home-Bildschirm legen: Auf iPhone und Android zeigt die Übersicht eine kurze Karte, wie man Zero Connect auf den Home-Bildschirm legt, damit es wie eine App startet. Sie lässt sich verschieben oder ausblenden und steht zusätzlich in den häufigen Fragen. Auf dem Computer und in der schon installierten App erscheint sie nicht.",
+  "changelog_summary": "Verständlichere Texte für Neulinge: Die iPhone-Live-Aktivität erklärt kurz, was Aivi ist. Die Felder für gespeicherte Zugangsdaten sagen, dass man sie leer lassen kann, um sie zu behalten. Die Übersicht sagt „Warte auf die ersten Daten deines Motorrads“, solange noch nichts da ist. Im README stehen Aivi und die Einrichtung von ABRP.",
   "channel": "beta",
   "internal_version": "3.0.0-alpha.45",
   "minimum_config_schema": 5,
   "notes": [
+    "Verständlichere Texte für Neulinge: Die iPhone-Live-Aktivität erklärt kurz, was Aivi ist. Die Felder für gespeicherte Zugangsdaten sagen, dass man sie leer lassen kann, um sie zu behalten. Die Übersicht sagt „Warte auf die ersten Daten deines Motorrads“, solange noch nichts da ist. Im README stehen Aivi und die Einrichtung von ABRP.",
+    "Überall sichtbare Rückmeldung: Alle Einstellungsformulare zeigen unter dem Knopf, dass gespeichert wird, und danach das Ergebnis oder den Grund eines Fehlers; es bleibt stehen, bis man etwas ändert. Die Systemprüfung zeigt ihre Ergebnisse als Liste, das Supportpaket sagt, wohin die Datei gehört, und der Neustart der Datenabfrage meldet sich selbst zurück. Meldungen bleiben länger stehen und lassen sich wegtippen. Die Update-Seite prüft selbst, wenn lange nicht geprüft wurde.",
+    "ABRP: Schritt für Schritt Rückmeldung: Beim Speichern von ABRP zeigt die App, was passiert: ABRP wird gefragt, die Zugangsdaten werden akzeptiert oder mit klarem Grund abgelehnt, die Werte werden gespeichert und die Datenabfrage startet neu. Am Ende steht, wann ABRP Daten bekommt.",
+    "ABRP prüft die Zugangsdaten schon beim Speichern: Beim Speichern von ABRP-Token und -Key fragt die App bei ABRP nach. Lehnt ABRP die Werte ab, steht sofort da, dass Token und Key abgelehnt wurden und in welches Feld welcher Wert gehört; die Werte werden dann nicht gespeichert. Ohne Verbindung zu ABRP wird trotzdem gespeichert. Im Diagnosetext steht außerdem die Begründung von ABRP, zum Beispiel „Unauthorized Key“.",
+    "Einstellungen wirken sofort, auch bei ABRP und Aivi: Wer ABRP, Aivi oder andere Verbindungen einrichtet oder ändert, bekommt nicht mehr die Meldung „Gespeichert, aber die Datenabfrage ließ sich nicht neu starten“. Die Datenabfrage startet sich auf Anforderung der App selbst neu und übernimmt die neuen Werte sofort.",
+    "ABRP: Anleitung für Token und Key: In den ABRP-Einstellungen erklärt eine kurze Anleitung, wo man den Telemetry-API-Key (im eigenen ABRP-Konto) und das User-Token (in den Live-Daten des Fahrzeugs, Methode „Generic“) bekommt, mit direktem Link. Die Felder heißen jetzt eindeutig, und die Anleitung steht auch in den häufigen Fragen und im README.",
     "Hinweis: Zero Connect auf den Home-Bildschirm legen: Auf iPhone und Android zeigt die Übersicht eine kurze Karte, wie man Zero Connect auf den Home-Bildschirm legt, damit es wie eine App startet. Sie lässt sich verschieben oder ausblenden und steht zusätzlich in den häufigen Fragen. Auf dem Computer und in der schon installierten App erscheint sie nicht.",
     "Kein Neuladen mehr beim Wechsel zwischen Ansichten: Auf manchen iPhones (Safari und Firefox) lud die App bei jedem Tippen auf einen Tab oder Menüpunkt komplett neu und zeigte jedes Mal das Zeichen. Die App wechselt die Ansicht jetzt, ohne die Seite neu zu laden; Zurück funktioniert weiter.",
-    "Supportpaket zählt Seitenaufrufe und liest die Spannungswarnung: Das Supportpaket zeigt, wie oft die App-Seite in den letzten Stunden geladen wurde, und liest die Unterspannungswarnung des Raspberry Pi auch auf neueren Systemen.",
-    "Auffälligere WLAN-Bestätigung in der Einrichtung: Nach dem Wechsel ins Heim-WLAN zeigt die erste Seite „Mit deinem WLAN verbunden“ jetzt mit grünem Haken in einem grünen Feld.",
-    "Supportpaket nennt Gründe für fehlende Angaben: Kann das Supportpaket das Journal oder die Stromversorgung nicht lesen, steht jetzt der Grund im Paket. Die Stromversorgung wird zusätzlich über den Kernel gelesen.",
-    "Zero-Connect-Zeichen nur noch beim Start: Das Zeichen erscheint nur noch beim Start der App und nicht mehr bei jedem Tippen dazwischen.",
-    "Update erkennt den Neustart zuverlässig: Die Fortschrittsanzeige wartet nicht mehr minutenlang auf eine hängende Anfrage, wenn das Gerät neu startet, und lädt die Seite danach selbst neu, auch wenn das Handy zwischendurch geschlafen hat."
+    "Supportpaket zählt Seitenaufrufe und liest die Spannungswarnung: Das Supportpaket zeigt, wie oft die App-Seite in den letzten Stunden geladen wurde, und liest die Unterspannungswarnung des Raspberry Pi auch auf neueren Systemen."
   ],
   "public_version": "1.0.0-beta.1",
-  "release_timestamp": "2026-11-01T21:01:38Z",
+  "release_timestamp": "2026-11-01T23:22:41Z",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "+LPzFdiDbLTgIV2cdu1qaVQr1menD6EkCZnnmvJ+wavbgncF1goZRyz8DkqLp0bEbb/mOWslmyT2freqrR0MDg=="
+    "value": "gS7drMCUCxzqYwjgfkpXy2gu8TSjpSsuHwk9rQiMcIEaaWw2xNr1GfmwxdzdfJhexs8iGD7/cgpX0rxSNIlRDg=="
   },
   "supported_platforms": [
     "raspios-trixie-arm64",

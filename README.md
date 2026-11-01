@@ -21,6 +21,19 @@ Zero Connect ist eine Anwendung für den Raspberry Pi. Sie liest die Daten deine
 4. Telefon mit dem WLAN **„Zero Connect Setup“** verbinden und der Einrichtung folgen: Heim-WLAN, Motorradmodell, Zero-Login. Öffnet sich die Einrichtung nicht von selbst, rufe im Browser `http://zero-connect.local:8080` auf.
 5. App öffnen unter `http://zero-connect.local:8080` (alternativ die IP-Adresse des Pi aus dem Router). Tipp: Lege die Seite auf den Home-Bildschirm (iPhone: Teilen → „Zum Home-Bildschirm“), dann startet sie wie eine App.
 
+## ABRP (optional)
+
+Zero Connect kann Daten an [A Better Route Planner](https://abetterrouteplanner.com) senden. Du brauchst zwei Werte, die du dort selbst erzeugst:
+
+1. **Telemetry-API-Key:** Im ABRP-Konto auf der Seite [Manage your telemetry API keys](https://abetterrouteplanner.com/home/app/api-keys/telemetry) einen neuen Key erzeugen.
+2. **User-Token:** In ABRP die Fahrzeug-Einstellungen öffnen, dann die Live-Daten, „Generic“ wählen und das Token kopieren.
+
+Beides trägst du unter *Einstellungen → Verbindungen → ABRP* ein. Nutze dafür das Fahrzeug, das du in ABRP schon hast. Für mehrere Fahrzeuge oder manche Live-Daten kann ABRP Premium nötig sein, das entscheidet ABRP. Die Menünamen in ABRP können sich ändern.
+
+## iPhone-Live-Aktivität (optional)
+
+Zero Connect kann den Ladevorgang als Live-Aktivität auf dem Sperrbildschirm zeigen, über die iPhone-App [Aivi](https://apps.apple.com/us/app/aivi-live-activities-over-api/id6749237387). Token und Aktivität (Progress-Slug) richtest du in der Aivi-App ein und trägst sie unter *Einstellungen → Verbindungen → iPhone Live-Aktivität* ein.
+
 ## Updates
 
 Die App sucht täglich nach neuen Versionen und installiert sie auf Wunsch. Deine Daten bleiben erhalten. Unter *Einstellungen → App & Updates* schaltest du **Beta-Versionen** ein oder aus.

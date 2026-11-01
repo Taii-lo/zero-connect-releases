@@ -5,11 +5,11 @@
       "version": "1.0.0-beta.1"
     }
   },
-  "generated_at": "2026-11-01T21:01:38Z",
+  "generated_at": "2026-11-01T23:22:42Z",
   "schema_version": 1,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "VpS7JJnC2l0XK5Em67efZoE8iNSBbx1qVMApBlfa5rxzVY+RdYSTpLDUgFVoN0liAIzSwcKQODzLfU+up96RDA=="
+    "value": "UuR+qZOVC5cjPsHTtQkHQSNb60hVrNdI52k/aItjPDO4xS3m+pj8SB3cXlr4t5Z/EdIjJnzZi38IAAIleCf6Dg=="
   }
 }

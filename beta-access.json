@@ -38,7 +38,7 @@
       "label": "TestPi",
       "revoked": false,
       "salt": "QMychFvUldsHrHlE6dj+XA==",
-      "wrapped": "Aq/r4N8spuCQ5m/aGExf2KbyfX0GSZUzv1q8H7auGYeLT0pdt7c7wAfvabXCmmcCgLMvA5OIPcjn/vgf"
+      "wrapped": "jnpxrkx/WtCqfiLLppd6Y3MuND0jwGjyvsptURe7iEAcvx789sA2U8qf+pPcGyUOFNGdBbndm97yLBK5"
     },
     {
       "epoch": 3,
@@ -52,7 +52,7 @@
       "label": "TestPi",
       "revoked": false,
       "salt": "RvNGITLmY5zVNHQ/B+1ojQ==",
-      "wrapped": "gCLR1Db/VrgbPQoNEgX+X1UqLgYITfH4uyOpqJwdWPci8NS0qg5xizZodjsvX70iEFgPJhkeuvoSUE6t"
+      "wrapped": "03CWnxCtC76ckpwUPybmAuESiQDwSEGkCfXncLHq988Zi3XiktweaxS4Nxc2y+3LCFB1YvtDvzW+uUuk"
     },
     {
       "epoch": 3,
@@ -66,14 +66,14 @@
       "label": "Thilo",
       "revoked": false,
       "salt": "qqnd9Z0DMzk8QEdJEx0VYg==",
-      "wrapped": "k7SksANAmFUbQb0SkiKZTJovmcIKEi+CTA80KPYobYUSD1LYpw16q3jkEfV5C4QaD4KaZjBoUSe4Ph3O"
+      "wrapped": "yiiOR7N9YigYEJNOHTeAxD/TUjDTU3cy7gU5WUDBaYYAFHn3G0opHuL3Nd26Q7k+smmxo2+tAgD6Tw70"
     }
   ],
-  "generated_at": "2026-11-01T21:01:38Z",
+  "generated_at": "2026-11-01T23:22:42Z",
   "schema_version": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "/35FwYCcal38EGlXrCM99WHtLQLrlZgmuALz2kHclBzY2G154meqQVXHs93rDR9QAPHSOfDbZbq8bET+d0qCBw=="
+    "value": "CCcXCl7X+x9pLlRcKpMjuoSSfo3WR77YBBCnbuMkVhTaVw6ERHd8g7YSpTFpa7R9QyuVug9TxpvinQiYzt2gCA=="
   }
 }
