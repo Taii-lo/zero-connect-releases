@@ -1,0 +1,32 @@
+{
+  "asset": {
+    "sha256": "5cbf09b1ee34942e567c91e66d7eddb2c6aebed2558865d255380b4d3e6a8274",
+    "size": 725351,
+    "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.1/zero-connect_1.0.0-beta.1.tar.gz"
+  },
+  "changelog_summary": "",
+  "channel": "beta",
+  "internal_version": "3.0.0-alpha.45",
+  "minimum_config_schema": 5,
+  "notes": [
+    "Kein Neuladen mehr beim Wechsel zwischen Ansichten: Auf manchen iPhones (Safari und Firefox) lud die App bei jedem Tippen auf einen Tab oder Menüpunkt komplett neu und zeigte jedes Mal das Zeichen. Die App wechselt die Ansicht jetzt, ohne die Seite neu zu laden; Zurück funktioniert weiter.",
+    "Supportpaket zählt Seitenaufrufe und liest die Spannungswarnung: Das Supportpaket zeigt, wie oft die App-Seite in den letzten Stunden geladen wurde, und liest die Unterspannungswarnung des Raspberry Pi auch auf neueren Systemen.",
+    "Auffälligere WLAN-Bestätigung in der Einrichtung: Nach dem Wechsel ins Heim-WLAN zeigt die erste Seite „Mit deinem WLAN verbunden“ jetzt mit grünem Haken in einem grünen Feld.",
+    "Supportpaket nennt Gründe für fehlende Angaben: Kann das Supportpaket das Journal oder die Stromversorgung nicht lesen, steht jetzt der Grund im Paket. Die Stromversorgung wird zusätzlich über den Kernel gelesen.",
+    "Zero-Connect-Zeichen nur noch beim Start: Das Zeichen erscheint nur noch beim Start der App und nicht mehr bei jedem Tippen dazwischen.",
+    "Update erkennt den Neustart zuverlässig: Die Fortschrittsanzeige wartet nicht mehr minutenlang auf eine hängende Anfrage, wenn das Gerät neu startet, und lädt die Seite danach selbst neu, auch wenn das Handy zwischendurch geschlafen hat.",
+    "Update ruhiger und kompakter: Ein angebotenes Update zeigt nur die Version und einen Knopf zum Installieren; die Neuerungen sind eingeklappt und zeigen nur, was seit der Vorversion neu ist. Beim Installieren schrumpft die Karte auf die Fortschrittsanzeige. Nach dem Update erscheint eine kurze Meldung mit Link zu den Neuerungen in den Einstellungen statt einer langen Liste."
+  ],
+  "public_version": "1.0.0-beta.1",
+  "release_timestamp": "2026-11-01T20:28:09Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "oDIIfCtGcV4MgeUftPBVNI8fe5mfaxPvfblN++1eTyP/c6smvn4GA9fjUxMJ6Y9rXtZ26dLqtdUkBaMHreXwCg=="
+  },
+  "supported_platforms": [
+    "raspios-trixie-arm64",
+    "pi3-64bit",
+    "pi5-64bit"
+  ]
+}
