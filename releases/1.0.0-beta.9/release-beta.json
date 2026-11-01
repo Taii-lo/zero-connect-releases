@@ -1,0 +1,31 @@
+{
+  "asset": {
+    "sha256": "d2b5e5693deb2d71b0297746954b199fc3fda0519750466483dd54e13986676e",
+    "size": 722379,
+    "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.9/zero-connect_1.0.0-beta.9.tar.gz"
+  },
+  "changelog_summary": "",
+  "channel": "beta",
+  "internal_version": "3.0.0-alpha.45",
+  "minimum_config_schema": 5,
+  "notes": [
+    "Erste Einrichtung ohne Liste der Neuerungen: Wer das Gerät gerade einrichtet, bekommt nicht mehr die lange Liste der Neuerungen angezeigt. Sie bleibt in den Einstellungen nachlesbar. Meldungen während der Einrichtung erscheinen oben und verdecken die Knöpfe nicht mehr.",
+    "Supportpaket hilft bei der Fehlersuche: Das Supportpaket enthält jetzt Gerätezustand (Modell, Speicher, Temperatur, Unterspannung, Netzwerkart), Update- und Einrichtungsstand sowie die Warn- und Fehlerzeilen der Dienste. Adressen, E-Mail, Koordinaten, Kennungen und alles zu Orten, Konten oder Passwörtern wird entfernt.",
+    "Einrichtung: WLAN-Passwort besser abgesichert, erste Seite nach dem Wechsel nicht mehr leer: Ein Passwort, das der Pi ablehnen würde (zu kurz, Umlaute), wird sofort gemeldet statt erst nach dem WLAN-Wechsel. Das Passwort lässt sich anzeigen. Der Hinweis beim Wechsel sagt, was bei falschem Passwort zu tun ist. Nach dem Wechsel zeigt die erste Seite „Mit deinem WLAN verbunden“ mit ihrem Titel statt einer leeren Karte.",
+    "Installiertes Update wird nicht noch einmal angeboten: Nach einem Update zeigte die App bis zur nächsten Prüfung noch „Update verfügbar“ für die Version, die bereits läuft. Jetzt erscheint sofort „Auf dem neuesten Stand“.",
+    "Update zeigt den Fortschritt direkt an: Beim Installieren springt die Ansicht nach oben zur Fortschrittsanzeige. Sie begleitet das Update bis zum Neustart und lädt die Seite danach selbst neu. Ist der Update-Dienst auf einem Gerät ausgeschaltet, sagt die App das sofort, statt endlos zu laden.",
+    "Einrichtung führt durch den WLAN-Wechsel: Beim Wechsel ins Heim-WLAN zeigt die Einrichtung jetzt Schritt für Schritt, wie es weitergeht. Der Wechsel startet erst, nachdem die Adresse kopiert wurde. Die WLAN-Suche zeigt, dass sie arbeitet, die erste Seite ist aufgeräumter, und bei der Modellauswahl läuft keine Ladeanimation mehr, bevor ein Modell gewählt ist. Außerdem: Der Verlauf erklärt, wann Ladevorgänge erscheinen, und die 12-V-Karte zeigt bei einem einzigen Messwert keinen Bereich."
+  ],
+  "public_version": "1.0.0-beta.9",
+  "release_timestamp": "2026-11-01T17:07:35Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "ITEaKv2JrzoSrlqlvBbMYqaI8XyNTNljPfIYBxKbnmiCYWyoEb29s4239hE22+xyEtubZ4ZMoTEsnRCnH9rpAg=="
+  },
+  "supported_platforms": [
+    "raspios-trixie-arm64",
+    "pi3-64bit",
+    "pi5-64bit"
+  ]
+}
