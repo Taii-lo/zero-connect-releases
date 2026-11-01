@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "sha256": "625807ce60d04abca6b2f36658e51cd5200f49ff0d5e182e554349a573ed147a",
+    "size": 723417,
+    "url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.10/zero-connect_1.0.0-beta.10.tar.gz"
+  },
+  "changelog_summary": "",
+  "channel": "beta",
+  "internal_version": "3.0.0-alpha.45",
+  "minimum_config_schema": 5,
+  "notes": [
+    "Zero-Connect-Zeichen nur noch beim Start: Das Zeichen erscheint nur noch beim Start der App und nicht mehr bei jedem Tippen dazwischen.",
+    "Update erkennt den Neustart zuverlässig: Die Fortschrittsanzeige wartet nicht mehr minutenlang auf eine hängende Anfrage, wenn das Gerät neu startet, und lädt die Seite danach selbst neu, auch wenn das Handy zwischendurch geschlafen hat.",
+    "Update ruhiger und kompakter: Ein angebotenes Update zeigt nur die Version und einen Knopf zum Installieren; die Neuerungen sind eingeklappt und zeigen nur, was seit der Vorversion neu ist. Beim Installieren schrumpft die Karte auf die Fortschrittsanzeige. Nach dem Update erscheint eine kurze Meldung mit Link zu den Neuerungen in den Einstellungen statt einer langen Liste."
+  ],
+  "public_version": "1.0.0-beta.10",
+  "release_timestamp": "2026-11-01T17:36:42Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "zero-connect-release-1",
+    "value": "d5YpSmJuRMcavDzWoZEG9FjPk3IWfh2bC8xF+GdWEBrGpzTtGl6vPHG160BFu0vQ5XWGSFsJjikP7pgIhr8YAQ=="
+  },
+  "supported_platforms": [
+    "raspios-trixie-arm64",
+    "pi3-64bit",
+    "pi5-64bit"
+  ]
+}
