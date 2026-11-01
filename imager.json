@@ -6,15 +6,15 @@
       "devices": [
         "pi3-64bit"
       ],
-      "extract_sha256": "6ede55285e6243d821a9979753890feae3d8150bc8ebc6ef0f9d2afed25523f4",
+      "extract_sha256": "00381acaae042f14226e9860dd9e9d46e6f45b88c27a146e46e5d3f3ff8ec912",
       "extract_size": 4840226816,
       "icon": "https://taii-lo.github.io/zero-connect-releases/zero-connect-icon.png",
-      "image_download_sha256": "502305ef0f73696c16be0cab5aa24a11bacca746c62e4dac0731b9318bd247a9",
-      "image_download_size": 206787252,
+      "image_download_sha256": "05b5cd3ab74da2a02c498e7b35edd1621f6b5233e355b962b09bd4e0b71a355e",
+      "image_download_size": 206769488,
       "init_format": "none",
-      "name": "Zero Connect 1.0.0-beta.11",
+      "name": "Zero Connect 1.0.0-beta.12",
       "release_date": "2026-11-01",
-      "url": "https://github.com/Taii-lo/zero-connect-releases/releases/download/v1.0.0-beta.11/zero-connect-pi_1.0.0-beta.11-20261101T180909Z.img.xz",
+      "url": "https://github.com/Taii-lo/zero-connect-releases/releases/download/v1.0.0-beta.12/zero-connect-pi_1.0.0-beta.12-20261101T192829Z.img.xz",
       "website": "https://github.com/Taii-lo/zero-connect-releases"
     }
   ]

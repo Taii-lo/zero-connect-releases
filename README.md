@@ -18,7 +18,7 @@ Zero Connect ist eine Anwendung für den Raspberry Pi. Sie liest die Daten deine
 1. Unter [**Releases**](https://github.com/Taii-lo/zero-connect-releases/releases) die Datei `zero-connect-….img.xz` laden (etwa 200 MB, nicht entpacken).
 2. Mit dem [Raspberry Pi Imager](https://www.raspberrypi.com/software/) auf die Karte schreiben: *Betriebssystem → Eigenes Image verwenden*. Einstellungen anpassen: **Nein**.
 3. Karte in den Pi, Strom anschließen, etwa zwei Minuten warten.
-4. Telefon mit dem WLAN **„Zero Connect Setup“** verbinden und der Einrichtung folgen: Heim-WLAN, Motorradmodell, Zero-Login.
+4. Telefon mit dem WLAN **„Zero Connect Setup“** verbinden und der Einrichtung folgen: Heim-WLAN, Motorradmodell, Zero-Login. Öffnet sich die Einrichtung nicht von selbst, rufe im Browser `http://zero-connect.local:8080` auf.
 5. App öffnen unter `http://zero-connect.local:8080` (alternativ die IP-Adresse des Pi aus dem Router).
 
 ## Updates

@@ -1,15 +1,15 @@
 {
   "channels": {
     "beta": {
-      "release_url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.11/release-beta.json",
-      "version": "1.0.0-beta.11"
+      "release_url": "https://taii-lo.github.io/zero-connect-releases/releases/1.0.0-beta.12/release-beta.json",
+      "version": "1.0.0-beta.12"
     }
   },
-  "generated_at": "2026-11-01T18:14:38Z",
+  "generated_at": "2026-11-01T19:33:43Z",
   "schema_version": 1,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "zero-connect-release-1",
-    "value": "cIf7RaK29Hzo2X1DJtgFodkxAVPopTKysNOkcyKC1NaNaEAbNNenMBxIwiKxgjxBCfCgc+mTNq/knl+63hQ9Bg=="
+    "value": "JpEMpze5pCkZ1T9Fu+ScDRnm/Vh/2mOGGNmZ+QigNK6R3Q10ZjQgcAQleuhJoo5QbQvPNVyd6xTTc4h5JitDDg=="
   }
 }
